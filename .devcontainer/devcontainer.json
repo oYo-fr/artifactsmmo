@@ -1,0 +1,28 @@
+{
+	"name": "artifactsmmo",
+	"image": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"hbenl.vscode-test-explorer",
+				"ms-vscode.vscode-typescript-next",
+				"github.vscode-pull-request-github",
+				"eamodio.gitlens",
+				"redhat.vscode-yaml",
+				"ryanluker.vscode-coverage-gutters",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"DavidAnson.vscode-markdownlint",
+				"visualstudioexptteam.vscodeintellicode",
+				"ms-vsliveshare.vsliveshare",
+				"mhutchie.git-graph",
+				"dennisvhest.npm-browser",
+				"christian-kohler.npm-intellisense",
+				"kavod-io.vscode-jest-test-adapter",
+				"aykutsarac.jsoncrack-vscode"
+			]
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home,type=bind",
+	"runArgs": ["--env-file", ".devcontainer/devcontainer.env"]
+}

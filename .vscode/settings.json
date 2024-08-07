@@ -1,0 +1,32 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript"],
+  "files.exclude": {
+      ".devcontainer/": true,
+      ".vscode/": true,
+      "node_modules/": true,
+      "dist/": true,
+      ".idea/": true,
+      ".github/": true,
+      "package-lock.json/": true,
+      "artifactsmmo/": true,
+      "tools/": true,
+      "LICENSE": true,
+      "tsconfig.json": true,
+      "babel.config.js": true,
+      ".eslintrc.yml": true,
+      ".gitignore": true
+  },
+  "coverage-gutters.coverageFileNames": [
+    "coverage/lcov.info",
+    "coverage/clover.xml"
+  ],
+  "jestTestExplorer.logpanel": true,
+  "jestTestExplorer.logfile": "test",
+  "jestTestExplorer.flattenExplorer": true,
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "testExplorer.addToEditorContextMenu": true,
+  "git.allowForcePush": true
+}

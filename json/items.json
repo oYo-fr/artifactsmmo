@@ -1,0 +1,1357 @@
+{
+    "data": [
+      {
+        "name": "Cooked Gudgeon",
+        "code": "cooked_gudgeon",
+        "level": 1,
+        "type": "consumable",
+        "subtype": "food",
+        "description": "Restores 8HP at the start of the turn if the player has lost more than 50% of his health points.",
+        "effects": [
+          {
+            "name": "restore",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "cooking",
+          "level": 1,
+          "items": [
+            {
+              "code": "gudgeon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Copper Dagger",
+        "code": "copper_dagger",
+        "level": 1,
+        "type": "weapon",
+        "subtype": "dagger",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_air",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Copper Ore",
+        "code": "copper_ore",
+        "level": 1,
+        "type": "resource",
+        "subtype": "mining",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Golden Egg",
+        "code": "golden_egg",
+        "level": 1,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Raw Chicken",
+        "code": "raw_chicken",
+        "level": 1,
+        "type": "resource",
+        "subtype": "food",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Copper Boots",
+        "code": "copper_boots",
+        "level": 1,
+        "type": "boots",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "res_water",
+            "value": 2
+          },
+          {
+            "name": "res_earth",
+            "value": 2
+          },
+          {
+            "name": "res_fire",
+            "value": 2
+          },
+          {
+            "name": "res_air",
+            "value": 2
+          },
+          {
+            "name": "haste",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Egg",
+        "code": "egg",
+        "level": 1,
+        "type": "resource",
+        "subtype": "food",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Copper Helmet",
+        "code": "copper_helmet",
+        "level": 1,
+        "type": "helmet",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 20
+          },
+          {
+            "name": "dmg_water",
+            "value": 3
+          },
+          {
+            "name": "dmg_earth",
+            "value": 3
+          },
+          {
+            "name": "dmg_fire",
+            "value": 3
+          },
+          {
+            "name": "dmg_air",
+            "value": 3
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Ash Wood",
+        "code": "ash_wood",
+        "level": 1,
+        "type": "resource",
+        "subtype": "woodcutting",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Cooked Chicken",
+        "code": "cooked_chicken",
+        "level": 1,
+        "type": "consumable",
+        "subtype": "food",
+        "description": "Restores 10HP at the start of the turn if the player has lost more than 50% of his health points.",
+        "effects": [
+          {
+            "name": "restore",
+            "value": 10
+          }
+        ],
+        "craft": {
+          "skill": "cooking",
+          "level": 1,
+          "items": [
+            {
+              "code": "raw_chicken",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Feather",
+        "code": "feather",
+        "level": 1,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Gudgeon",
+        "code": "gudgeon",
+        "level": 1,
+        "type": "resource",
+        "subtype": "fishing",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Tasks Coin",
+        "code": "tasks_coin",
+        "level": 1,
+        "type": "currency",
+        "subtype": "",
+        "description": "You can earn this currency by completing tasks. You can exchange them at any Tasks Master for a reward.",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Copper",
+        "code": "copper",
+        "level": 1,
+        "type": "resource",
+        "subtype": "bar",
+        "description": "",
+        "effects": [],
+        "craft": {
+          "skill": "mining",
+          "level": 1,
+          "items": [
+            {
+              "code": "copper_ore",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Wooden Shield",
+        "code": "wooden_shield",
+        "level": 1,
+        "type": "shield",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "res_fire",
+            "value": 3
+          },
+          {
+            "name": "res_earth",
+            "value": 3
+          },
+          {
+            "name": "res_water",
+            "value": 3
+          },
+          {
+            "name": "res_air",
+            "value": 3
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Wooden Staff",
+        "code": "wooden_staff",
+        "level": 1,
+        "type": "weapon",
+        "subtype": "staff",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_earth",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "wooden_stick",
+              "quantity": 1
+            },
+            {
+              "code": "ash_wood",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Copper Ring",
+        "code": "copper_ring",
+        "level": 1,
+        "type": "ring",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "dmg_air",
+            "value": 2
+          },
+          {
+            "name": "dmg_earth",
+            "value": 2
+          },
+          {
+            "name": "dmg_water",
+            "value": 2
+          },
+          {
+            "name": "dmg_fire",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "jewelrycrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Ash Plank",
+        "code": "ash_plank",
+        "level": 1,
+        "type": "resource",
+        "subtype": "plank",
+        "description": "",
+        "effects": [],
+        "craft": {
+          "skill": "woodcutting",
+          "level": 1,
+          "items": [
+            {
+              "code": "ash_wood",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Wooden Stick",
+        "code": "wooden_stick",
+        "level": 1,
+        "type": "weapon",
+        "subtype": "staff",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_earth",
+            "value": 4
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 1,
+          "items": [
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Yellow Slimeball",
+        "code": "yellow_slimeball",
+        "level": 2,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Green Slimeball",
+        "code": "green_slimeball",
+        "level": 4,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Copper Legs Armor",
+        "code": "copper_legs_armor",
+        "level": 5,
+        "type": "leg_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 25
+          },
+          {
+            "name": "haste",
+            "value": 1
+          },
+          {
+            "name": "dmg_water",
+            "value": 2
+          },
+          {
+            "name": "dmg_earth",
+            "value": 2
+          },
+          {
+            "name": "dmg_fire",
+            "value": 2
+          },
+          {
+            "name": "dmg_air",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Feather Coat",
+        "code": "feather_coat",
+        "level": 5,
+        "type": "body_armor",
+        "subtype": "coat",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 25
+          },
+          {
+            "name": "dmg_air",
+            "value": 5
+          },
+          {
+            "name": "dmg_water",
+            "value": 5
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "feather",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Fire Staff",
+        "code": "fire_staff",
+        "level": 5,
+        "type": "weapon",
+        "subtype": "staff",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_fire",
+            "value": 16
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "red_slimeball",
+              "quantity": 2
+            },
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Raw beef",
+        "code": "raw_beef",
+        "level": 5,
+        "type": "resource",
+        "subtype": "food",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Cooked Beef",
+        "code": "cooked_beef",
+        "level": 5,
+        "type": "consumable",
+        "subtype": "food",
+        "description": "Gives 40HP at the start of the fight.",
+        "effects": [
+          {
+            "name": "boost_hp",
+            "value": 40
+          }
+        ],
+        "craft": {
+          "skill": "cooking",
+          "level": 5,
+          "items": [
+            {
+              "code": "raw_beef",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Copper Armor",
+        "code": "copper_armor",
+        "level": 5,
+        "type": "body_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 25
+          },
+          {
+            "name": "dmg_earth",
+            "value": 5
+          },
+          {
+            "name": "dmg_fire",
+            "value": 5
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Milk Bucket",
+        "code": "milk_bucket",
+        "level": 5,
+        "type": "resource",
+        "subtype": "food",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Sticky Dagger",
+        "code": "sticky_dagger",
+        "level": 5,
+        "type": "weapon",
+        "subtype": "dagger",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_air",
+            "value": 16
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 3
+            },
+            {
+              "code": "green_slimeball",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Sticky Sword",
+        "code": "sticky_sword",
+        "level": 5,
+        "type": "weapon",
+        "subtype": "sword",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_earth",
+            "value": 16
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "yellow_slimeball",
+              "quantity": 2
+            },
+            {
+              "code": "copper",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Life Amulet",
+        "code": "life_amulet",
+        "level": 5,
+        "type": "amulet",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 40
+          }
+        ],
+        "craft": {
+          "skill": "jewelrycrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "blue_slimeball",
+              "quantity": 1
+            },
+            {
+              "code": "red_slimeball",
+              "quantity": 1
+            },
+            {
+              "code": "cowhide",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Water Bow",
+        "code": "water_bow",
+        "level": 5,
+        "type": "weapon",
+        "subtype": "bow",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_water",
+            "value": 16
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 5,
+          "items": [
+            {
+              "code": "blue_slimeball",
+              "quantity": 2
+            },
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Blue Slimeball",
+        "code": "blue_slimeball",
+        "level": 6,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Red Slimeball",
+        "code": "red_slimeball",
+        "level": 7,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Cowhide",
+        "code": "cowhide",
+        "level": 8,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Fire & Earth Amulet",
+        "code": "fire_and_earth_amulet",
+        "level": 10,
+        "type": "amulet",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "dmg_fire",
+            "value": 8
+          },
+          {
+            "name": "dmg_earth",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "jewelrycrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 3
+            },
+            {
+              "code": "iron",
+              "quantity": 4
+            },
+            {
+              "code": "red_slimeball",
+              "quantity": 3
+            },
+            {
+              "code": "yellow_slimeball",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Golden Shrimp",
+        "code": "golden_shrimp",
+        "level": 10,
+        "type": "resource",
+        "subtype": "fishing",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Iron Boots",
+        "code": "iron_boots",
+        "level": 10,
+        "type": "boots",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 40
+          },
+          {
+            "name": "res_water",
+            "value": 5
+          },
+          {
+            "name": "res_air",
+            "value": 5
+          },
+          {
+            "name": "haste",
+            "value": 3
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "iron",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Iron Sword",
+        "code": "iron_sword",
+        "level": 10,
+        "type": "weapon",
+        "subtype": "sword",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_earth",
+            "value": 24
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "iron",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Leather Boots",
+        "code": "leather_boots",
+        "level": 10,
+        "type": "boots",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 40
+          },
+          {
+            "name": "res_fire",
+            "value": 5
+          },
+          {
+            "name": "res_earth",
+            "value": 5
+          },
+          {
+            "name": "haste",
+            "value": 3
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            },
+            {
+              "code": "cowhide",
+              "quantity": 4
+            },
+            {
+              "code": "red_slimeball",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Mushroom",
+        "code": "mushroom",
+        "level": 10,
+        "type": "resource",
+        "subtype": "mob",
+        "description": "",
+        "effects": [],
+        "craft": null
+      },
+      {
+        "name": "Cooked Shrimp",
+        "code": "cooked_shrimp",
+        "level": 10,
+        "type": "consumable",
+        "subtype": "food",
+        "description": "Restores 20HP at the start of the turn if the player has lost more than 50% of his health points.",
+        "effects": [
+          {
+            "name": "restore",
+            "value": 20
+          }
+        ],
+        "craft": {
+          "skill": "cooking",
+          "level": 10,
+          "items": [
+            {
+              "code": "shrimp",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Leather Armor",
+        "code": "leather_armor",
+        "level": 10,
+        "type": "body_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 50
+          },
+          {
+            "name": "dmg_air",
+            "value": 8
+          },
+          {
+            "name": "dmg_water",
+            "value": 8
+          },
+          {
+            "name": "res_fire",
+            "value": 2
+          },
+          {
+            "name": "res_earth",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "feather",
+              "quantity": 4
+            },
+            {
+              "code": "cowhide",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Adventurer Pants",
+        "code": "adventurer_pants",
+        "level": 10,
+        "type": "leg_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 50
+          },
+          {
+            "name": "dmg_earth",
+            "value": 5
+          },
+          {
+            "name": "dmg_water",
+            "value": 5
+          },
+          {
+            "name": "dmg_air",
+            "value": 5
+          },
+          {
+            "name": "dmg_fire",
+            "value": 5
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 2
+            },
+            {
+              "code": "cowhide",
+              "quantity": 8
+            },
+            {
+              "code": "mushroom",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Adventurer Helmet",
+        "code": "adventurer_helmet",
+        "level": 10,
+        "type": "helmet",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 50
+          },
+          {
+            "name": "dmg_earth",
+            "value": 5
+          },
+          {
+            "name": "dmg_water",
+            "value": 5
+          },
+          {
+            "name": "dmg_fire",
+            "value": 5
+          },
+          {
+            "name": "dmg_air",
+            "value": 5
+          },
+          {
+            "name": "res_fire",
+            "value": 8
+          },
+          {
+            "name": "res_air",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "feather",
+              "quantity": 4
+            },
+            {
+              "code": "cowhide",
+              "quantity": 3
+            },
+            {
+              "code": "spruce_plank",
+              "quantity": 3
+            },
+            {
+              "code": "mushroom",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Air & Water Amulet",
+        "code": "air_and_water_amulet",
+        "level": 10,
+        "type": "amulet",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "dmg_water",
+            "value": 8
+          },
+          {
+            "name": "dmg_air",
+            "value": 8
+          }
+        ],
+        "craft": {
+          "skill": "jewelrycrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "copper",
+              "quantity": 2
+            },
+            {
+              "code": "iron",
+              "quantity": 6
+            },
+            {
+              "code": "green_slimeball",
+              "quantity": 3
+            },
+            {
+              "code": "blue_slimeball",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Greater Wooden Staff",
+        "code": "greater_wooden_staff",
+        "level": 10,
+        "type": "weapon",
+        "subtype": "staff",
+        "description": "",
+        "effects": [
+          {
+            "name": "attack_water",
+            "value": 24
+          }
+        ],
+        "craft": {
+          "skill": "weaponcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "ash_plank",
+              "quantity": 3
+            },
+            {
+              "code": "spruce_plank",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Iron Armor",
+        "code": "iron_armor",
+        "level": 10,
+        "type": "body_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 50
+          },
+          {
+            "name": "dmg_earth",
+            "value": 8
+          },
+          {
+            "name": "dmg_fire",
+            "value": 8
+          },
+          {
+            "name": "res_water",
+            "value": 2
+          },
+          {
+            "name": "res_air",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "iron",
+              "quantity": 5
+            },
+            {
+              "code": "cowhide",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Iron Legs Armor",
+        "code": "iron_legs_armor",
+        "level": 10,
+        "type": "leg_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 50
+          },
+          {
+            "name": "haste",
+            "value": 1
+          },
+          {
+            "name": "res_earth",
+            "value": 5
+          },
+          {
+            "name": "res_water",
+            "value": 5
+          },
+          {
+            "name": "res_air",
+            "value": 5
+          },
+          {
+            "name": "res_fire",
+            "value": 5
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "iron",
+              "quantity": 4
+            },
+            {
+              "code": "cowhide",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "name": "Adventurer Vest",
+        "code": "adventurer_vest",
+        "level": 10,
+        "type": "body_armor",
+        "subtype": "",
+        "description": "",
+        "effects": [
+          {
+            "name": "hp",
+            "value": 70
+          },
+          {
+            "name": "dmg_fire",
+            "value": 9
+          },
+          {
+            "name": "dmg_air",
+            "value": 9
+          },
+          {
+            "name": "dmg_water",
+            "value": 9
+          },
+          {
+            "name": "dmg_earth",
+            "value": 9
+          },
+          {
+            "name": "res_fire",
+            "value": 2
+          },
+          {
+            "name": "res_earth",
+            "value": 2
+          },
+          {
+            "name": "res_water",
+            "value": 2
+          },
+          {
+            "name": "res_air",
+            "value": 2
+          }
+        ],
+        "craft": {
+          "skill": "gearcrafting",
+          "level": 10,
+          "items": [
+            {
+              "code": "feather",
+              "quantity": 2
+            },
+            {
+              "code": "cowhide",
+              "quantity": 8
+            },
+            {
+              "code": "red_slimeball",
+              "quantity": 1
+            },
+            {
+              "code": "green_slimeball",
+              "quantity": 1
+            },
+            {
+              "code": "yellow_slimeball",
+              "quantity": 1
+            },
+            {
+              "code": "blue_slimeball",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "total": 162,
+    "page": 1,
+    "size": 50,
+    "pages": 4
+  }
